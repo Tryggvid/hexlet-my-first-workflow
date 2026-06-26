@@ -19,7 +19,7 @@ jobs:
           node-version: '20'
       
       - name: Install dependencies
-        run: npm install || true
+        run: echo "Skipping npm install"
       
       - name: Run tests
         run: npm test
