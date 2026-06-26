@@ -2,6 +2,6 @@
   "name": "hexlet-my-first-workflow",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo 'Hello, CI!'"
+    "test": "echo 'No tests yet, but CI is green!' && exit 0"
   }
 }
